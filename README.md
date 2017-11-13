@@ -1,6 +1,4 @@
 # RIM Project 2
 
-An attempt to combine phaser.js with a websockets based server.
- 
-Things referenced (but not necessarily used) in this project:
-http://www.html5gamedevs.com/topic/7393-running-phaser-on-nodejs-how-i-did-it-and-why-you-shouldnt-do-it/ (whoops)
+After originally trying to do Phaser and Node together, it didn't work out, so I bailed and did something else. I realized I wasn't getting anywhere trying to make Phaser work with Node (it even says on the npm page it was never meant to be used this way) and the source I found that looked most promising ended up using deprecated libraries and so did not work.
+

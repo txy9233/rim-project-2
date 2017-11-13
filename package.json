@@ -1,0 +1,31 @@
+{
+  "name": "rim-project-2",
+  "version": "1.0.0",
+  "description": "An attempt to combine phaser.js with a websockets based server.",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "pretest": "eslint server.js main.js player.js --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txy9233/rim-project-2.git"
+  },
+  "author": "Tim Yuan (txy9233)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txy9233/rim-project-2/issues"
+  },
+  "homepage": "https://github.com/txy9233/rim-project-2#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "p2": "^0.7.1",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
